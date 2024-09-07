@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children's Stories</title>
+    <script defer src="js/stories.js"></script>
+    <script defer src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        a:hover {
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-yellow-200 to-green-200 min-h-screen flex flex-col items-center font-sans">
+
+    <header class="py-8 text-center">
+        <h1 class="text-5xl font-bold text-blue-800 mb-4">Children's Storybook</h1>
+        <p class="text-lg text-gray-700">Click a story to start reading!</p>
+    </header>
+
+    <main class="w-full max-w-6xl px-4">
+        <div id="story-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Story cards will be dynamically inserted here by script.js -->
+        </div>
+    </main>
+
+    <footer class="mt-auto py-6 text-center text-blue-600 text-sm">
+        &copy; 2024 Children's Storybook | Fun & Adventure for Kids!
+    </footer>
+
+</body>
+
+</html>
